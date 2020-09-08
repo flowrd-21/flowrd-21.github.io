@@ -1,0 +1,89 @@
+.logo {
+  text-align: center;
+  background-color: black;
+}  
+ body {
+ background-color: black;
+ background-image: url("img/bee2.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100%90%;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: medium;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    font-size: large;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+.row1 {
+  background-color: #ffffb3;
+}
+.row2{
+  background-color:#ffd24d;
+}
+
+.row3{
+  background-color:#ffbb33;
+}
+.row4{
+  background-color:#b37d13;
+}
+.row5{
+  background-color:#8d630f;
+}
+.row6{
+  background-color: #6b3b05;
+}
+       
+h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}

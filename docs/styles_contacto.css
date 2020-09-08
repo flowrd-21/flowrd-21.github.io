@@ -1,0 +1,19 @@
+.logo {
+        text-align: center;
+        background-color: black;
+  }
+ div.transbox{
+    margin:30px;
+    background-color: #ffffff;
+    border: 1px solid whitesmoke;
+    opacity: 0.8;
+    color:  #3d362d;
+}
+body {
+    background-color: black;
+    background-image: url("img/backgnd.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 90%;
+    font-family: Tahoma;
+   }

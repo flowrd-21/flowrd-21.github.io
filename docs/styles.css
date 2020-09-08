@@ -1,0 +1,33 @@
+.logo {
+    text-align: center;
+    background-color: black;
+  }  
+ body {
+background-color: black;
+ background-image: url("img/bee2.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 90%;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: medium;
+}
+.row1 {
+  background-color: #ffffb3;
+}
+.row2{
+  background-color:#ffd24d;
+}
+
+.row3{
+  background-color:#ffbb33;
+}
+.row4{
+  background-color:#b37d13;
+}
+.row5{
+  background-color:#8d630f;
+}
+.row6{
+  background-color: #6b3b05;
+}
+ 
